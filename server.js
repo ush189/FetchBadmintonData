@@ -10,7 +10,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', function (req, res) {
-    res.send('Hello World!');
+    res.send('Hello Node-World!');
 });
 
 app.get('/badminton', function (req, res) {
